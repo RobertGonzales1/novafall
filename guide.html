@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Novafall — Commander's Guide &amp; FAQ</title>
+<meta name="description" content="How to play Novafall: the core loop, Ascension, the Cabinet, war, politics, and answers to common questions.">
+<style>
+  :root { color-scheme: dark; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #060B14; color: #C9D6E5;
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65; min-height: 100vh;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 24px 80px; }
+  .logo { font-size: 44px; }
+  h1 {
+    color: #E8F0FA; font-size: 28px; letter-spacing: 2px; margin: 10px 0 4px;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  .tagline { color: #54779C; font-size: 13px; letter-spacing: 1px; text-transform: uppercase;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  p { margin: 12px 0; }
+  .card {
+    background: #0A1428; border: 1px solid #1C2C44; border-radius: 14px;
+    padding: 22px 24px; margin-top: 24px;
+  }
+  .card h2 { color: #E8F0FA; font-size: 15px; margin-bottom: 10px;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing: 1px; }
+  h3 { color: #9CC4F0; font-size: 13px; margin: 18px 0 4px;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; letter-spacing: 1px; }
+  a { color: #4DA3FF; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  ul, ol { margin: 10px 0 0 20px; }
+  li { margin: 7px 0; }
+  strong { color: #E8F0FA; }
+  .dm { color: #C084FC; font-weight: 700; }
+  .tab { color: #9CC4F0; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 12px; letter-spacing: 0.5px; }
+  .nav { margin-top: 18px; font-size: 13px;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  .nav a { margin-right: 16px; }
+  .faq dt { color: #E8F0FA; font-weight: 700; margin-top: 16px; }
+  .faq dd { margin: 4px 0 0 0; }
+  .tip { border-left: 3px solid #2A4A7A; padding: 8px 14px; margin: 14px 0;
+    background: #0D1B33; border-radius: 0 10px 10px 0; font-size: 14px; }
+  footer { margin-top: 48px; color: #54779C; font-size: 12px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="logo">🌌</div>
+  <h1>COMMANDER'S GUIDE</h1>
+  <div class="tagline">Novafall · How to Play &amp; FAQ</div>
+
+  <div class="nav">
+    <a href="index.html">← Support</a>
+    <a href="#tutorial">Tutorial</a>
+    <a href="#ascension">Ascension</a>
+    <a href="#faq">FAQ</a>
+  </div>
+
+  <div class="card" id="tutorial">
+    <h2>🚀 YOUR FIRST HOUR</h2>
+    <ol>
+      <li><strong>Tap the foundry.</strong> Every tap forges a burst of Alloy 🔩 — rapid taps chain into a combo worth up to ×5. Alloy builds ships.</li>
+      <li><strong>Build Probe Drones</strong> on the <span class="tab">FLEET</span> tab. Ships give your empire <strong>fleet power</strong>, and fleet power is the key to everything.</li>
+      <li><strong>Colonize Kepler Prime</strong> on the <span class="tab">GALAXY</span> tab. A planet joins your empire when your fleet power covers its garrison and you pay the energy cost. Colonies produce resources every second — even while the app is closed.</li>
+      <li><strong>Keep expanding.</strong> More colonies → more Alloy, Energy ⚡ and Research 🔬 → bigger ships → tougher planets. Develop each colony up to level 5 (+40% output per level) to squeeze the most from a sector.</li>
+      <li><strong>Listen to NOVA.</strong> Your shipboard AI on the <span class="tab">NOVA</span> tab always knows the single best next move — her suggestion cards jump you straight to the right screen. New tabs unlock as your empire grows, so don't worry about the quiet menu early on.</li>
+    </ol>
+    <div class="tip">💡 Planet types matter: Mining Worlds pour out Alloy, Gas Giants pump Energy, Relic Worlds drive Research. Terran Worlds do a bit of everything.</div>
+  </div>
+
+  <div class="card" id="ascension">
+    <h2>◈ ASCENSION — THE BIG LOOP</h2>
+    <p>
+      Once you hold <strong>3 colonies</strong>, the <span class="tab">ASCEND</span> tab unlocks. Ascending
+      collapses your galaxy — colonies, ships, techs, and wonders all reset — and crystallizes your empire
+      into <span class="dm">Dark Matter ◈</span>, the permanent currency.
+    </p>
+    <ul>
+      <li>Every colony pays ◈ at collapse; higher development levels and deeper sectors pay much more.</li>
+      <li>Spend ◈ on <strong>permanent upgrades</strong>: production multipliers, offline caps, head-start ship classes, the Singularity Beacon (×2 all production for the first hour of every run), and the Cabinet.</li>
+      <li>Each run should reach farther than the last. Ascend when progress slows — clinging to a stalled galaxy is the classic idle-game mistake.</li>
+      <li><strong>Weekend Surge:</strong> ascensions pay <strong>double ◈</strong> on Saturday and Sunday.</li>
+      <li>Veterans can attempt <strong>Challenge ascensions</strong> — handicapped runs (no trade, half research, double ship costs…). Reach 20 colonies and ascend to earn a permanent +10% ◈ yield each.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>🏛️ THE CABINET — AUTOMATION</h2>
+    <p>
+      Ministers are permanent ◈ hires who run entire tabs for you: the <strong>Minister of Industry</strong>
+      buys the best-value ships, the <strong>Minister of Expansion</strong> colonizes and develops worlds,
+      the <strong>Minister of War</strong> breaks blockades and invades rivals, and six more cover science,
+      trade, state, treasury, espionage, and wonders. Once appointed, toggle them ON/OFF from the pill at the
+      top of their tab. Appoint Industry and Science first — they carry every run's early game.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>⚔️ WAR, RIVALS &amp; POLITICS</h2>
+    <h3>PIRATES</h3>
+    <p>The <span class="tab">WAR</span> tab's arcade: fight pirate fleets for salvage bounties on a short cooldown, and break their <strong>blockades</strong> — a blockaded colony stops producing until the fleet clears it.</p>
+    <h3>RIVAL EMPIRES</h3>
+    <p>Three NPC empires — the Vex Hegemony, Krillix Swarm, and Hollow Court — hold half the planets in the outer sectors. Invading their worlds needs extra fleet power (about 1.6× the normal garrison), and they besiege your border colonies in return. Buy a truce when you need breathing room — but a truce blocks your invasions too, and invading leaves a grudge.</p>
+    <h3>POLITICS</h3>
+    <p>Court five alien species with gifts on the <span class="tab">POLITICS</span> tab. Favor tiers unlock production buffs, and Sworn allies pay regular tribute. Enact one Senate <strong>edict</strong> at a time (e.g. War Economy: +25% alloy, −15% research), and choose your empire's <strong>doctrine</strong> — Federation, Empire, or Alliance — once per run. Doctrines shape everything from truce prices to bank interest, and each rival empire follows one creed: kindred creeds keep quieter borders.</p>
+  </div>
+
+  <div class="card">
+    <h2>🗼 EVERYTHING ELSE</h2>
+    <ul>
+      <li><strong>Wonders</strong> — six mega-projects per run, built one at a time over 1–3 hours. Huge run-wide effects; you get a notification when one completes.</li>
+      <li><strong>Trade</strong> — assign a freighter escort to a colony to open a trade lane worth +25% of its alloy/energy output.</li>
+      <li><strong>Bank</strong> — the First Bank of your empire pays compounding interest on deposits, and four charter-company stocks trade around the clock. Buy dips, sell spikes.</li>
+      <li><strong>Spies</strong> — recruit up to 10 agents and send the cell on timed missions. Riskier missions pay better; a botched job burns an agent.</li>
+      <li><strong>Daily Supply Drop</strong> — claim roughly once a day; a 7-day streak escalates to <span class="dm">◈20</span>.</li>
+      <li><strong>Weekly Anomaly</strong> — a galaxy-wide modifier that rotates every week, for every commander at once.</li>
+      <li><strong>Offline earnings</strong> — colonies keep producing while you're away (at a reduced rate, up to a cap you can extend with ◈). Away more than a day? Your return pays double.</li>
+    </ul>
+  </div>
+
+  <div class="card faq" id="faq">
+    <h2>❓ FAQ</h2>
+    <dl>
+      <dt>Is my save backed up?</dt>
+      <dd>Yes — automatically, to your own iCloud. Check <span class="tab">SETTINGS → SAVE DATA</span> for sync status. iCloud Drive must be enabled on your device (Settings → your name → iCloud → iCloud Drive).</dd>
+
+      <dt>I reinstalled and my empire is gone.</dt>
+      <dd>Give it a minute — iCloud can take a moment to deliver the save after a fresh install; the game re-checks several times after launch. Purchases can always be recovered with <span class="tab">SHOP → RESTORE PURCHASES</span>.</dd>
+
+      <dt>My planets look like they reset!</dt>
+      <dd>They almost certainly didn't. The Galaxy map tucks fully-developed sectors into a single ✅ line — when you colonize or invade a new world there, the sector expands again to show the new colony developing. Your existing colonies and levels are untouched; tap the sector header to collapse or expand it any time.</dd>
+
+      <dt>Why did production stop on a colony?</dt>
+      <dd>It's probably blockaded 🏴‍☠️ or under siege. Head to the <span class="tab">WAR</span> tab and clear it — or appoint the Minister of War and never think about it again.</dd>
+
+      <dt>When should I ascend?</dt>
+      <dd>When the next planet or ship class feels far away. Your first ascension can come as early as 3 colonies; the permanent ◈ upgrades will make the next run dramatically faster. Ascend on a weekend for double ◈.</dd>
+
+      <dt>Do wonders really take hours?</dt>
+      <dd>Yes — they're monuments, not errands. Construction continues while the app is closed and you'll get a notification the moment one completes.</dd>
+
+      <dt>Do I have to watch ads or pay?</dt>
+      <dd>No. There are no forced ads, and everything in the game can be earned by playing. Purchases are shortcuts and supporter packs.</dd>
+
+      <dt>What does resetting my empire in Settings erase?</dt>
+      <dd>Everything except your purchases — Relics and the starter unlock always survive a reset and can also be restored from the Shop.</dd>
+
+      <dt>What do the number suffixes mean (K, M, B, T, aa…)?</dt>
+      <dd>Thousand, million, billion, trillion — then aa (quadrillion), ab (quintillion) and onward. The full legend is in <span class="tab">SETTINGS</span>.</dd>
+
+      <dt>Something else?</dt>
+      <dd>Email <a href="mailto:rvg2151@gmail.com">rvg2151@gmail.com</a> with your device model and iOS version — we read everything.</dd>
+    </dl>
+  </div>
+
+  <footer>© 2026 Robert Gonzales · <a href="index.html">Support</a> · <a href="privacy.html">Privacy Policy</a></footer>
+</main>
+</body>
+</html>
