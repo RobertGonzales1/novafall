@@ -34,6 +34,16 @@
     display: inline-block; margin-top: 6px; padding: 10px 18px; border-radius: 10px;
     background: #12305A; border: 1px solid #2A4A7A; color: #9CC4F0; font-weight: 600;
   }
+  .play {
+    display: block; margin-top: 26px; padding: 20px 24px; border-radius: 14px;
+    background: linear-gradient(135deg, #0B2E4A, #10203C);
+    border: 1px solid #00C8FF; color: #E8F0FA; text-align: center;
+  }
+  .play:hover { text-decoration: none; border-color: #66DFFF; }
+  .play strong { display: block; font-size: 19px; letter-spacing: 1px; color: #00C8FF;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  .play span { display: block; margin-top: 6px; font-size: 13px; color: #A9C3DE; }
+  .stores { margin-top: 14px; font-size: 13px; }
   footer { margin-top: 48px; color: #54779C; font-size: 12px; }
   ul { margin: 10px 0 0 20px; }
   li { margin: 6px 0; }
@@ -43,12 +53,21 @@
 <main>
   <div class="logo">🌌</div>
   <h1>NOVAFALL</h1>
-  <div class="tagline">Idle Space Empire Builder · iOS</div>
+  <div class="tagline">Idle Space Empire Builder</div>
 
   <p style="margin-top:22px">
     Build a fleet, colonize the galaxy, and ascend — your empire grows even
     while you're away. Rival empires besiege your borders, alien species offer
     alliances, and every collapsed galaxy makes the next one stronger.
+  </p>
+
+  <a class="play" href="play/">
+    <strong>▶ PLAY FREE IN YOUR BROWSER</strong>
+    <span>The full game. No account, no install, no ads. Your progress saves to this browser.</span>
+  </a>
+  <p class="stores">
+    Prefer it on your phone? <a href="https://apps.apple.com/app/id6789433150">Get Novafall on the App Store</a>
+    — adds offline progress while the app is closed, iCloud save backup, and notifications.
   </p>
 
   <div class="card">
