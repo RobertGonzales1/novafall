@@ -2,6 +2,8 @@
 
 **[▶ Play free in your browser](https://robertgonzales1.github.io/novafall/play/)** — the full game, no account, no install.
 
+**[▶ Play it on itch.io](https://robertgonzales1.itch.io/novafall)** — the same game and the same version, plus a comments thread. It is a separate page, so a save started here does not follow you there (use a transfer code for that).
+
 **[Get it on the App Store](https://apps.apple.com/app/id6789433150)** — adds offline progress while the app is closed, iCloud save backup, and notifications.
 
 An idle space-strategy game. Build a fleet, colonize 64 worlds across 16 sectors, and when your run slows down, **ascend**: collapse the galaxy into Dark Matter and start the next cycle stronger.
