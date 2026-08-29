@@ -15,14 +15,14 @@ Three rival empires hold the frontier — the Vex Hegemony, the Krillix Swarm, a
 
 ## What's in this repo
 
-This is the **public site and the web build only** — the game's source lives in a private repo.
+This is the **public site only** — the game's source lives in a private repo, and the playable
+browser build lives on [itch.io](https://robertgonzales1.itch.io/novafall).
 
 | Path | What |
 |---|---|
 | `index.html` | Landing + support page |
 | `privacy.html` | Privacy policy |
 | `guide.html` | Commander's Guide & FAQ |
-| `play/` | The playable web build (static export) |
 
 ## Web vs iOS
 
