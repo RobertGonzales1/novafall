@@ -40,7 +40,7 @@
 <main>
   <h1>NOVAFALL — PRIVACY POLICY</h1>
   <div class="meta">
-    Effective date: August 20, 2026 · Developer: Robert Gonzales ·
+    Effective date: September 6, 2026 · Developer: Robert Gonzales ·
     Contact: <a href="mailto:rvg2151@gmail.com">rvg2151@gmail.com</a>
   </div>
 
@@ -70,7 +70,8 @@
   small set of events as the iOS app — reaching a milestone, moving through the
   opening tutorial, opening the shop. These are tied to a randomly generated
   identifier held in your browser, never to your identity, and include basic
-  device information (operating system, device type, browser). We use them to
+  device information (operating system, device type, browser) and an approximate
+  location derived from your IP address. We use them to
   find where new players get stuck. Analytics are processed by PostHog —
   <a href="https://posthog.com/privacy">PostHog's privacy policy</a>.</p>
   <p><strong>You are asked first, and nothing is recorded until you answer.</strong>
@@ -110,7 +111,8 @@
   watching an optional rewarded ad. These
   events are tied to a randomly generated identifier, not to your identity,
   and include basic device information (device model, OS version, app
-  version). <a href="https://posthog.com/privacy">PostHog's privacy policy</a></p>
+  version) and an approximate location derived from your IP address.
+  <a href="https://posthog.com/privacy">PostHog's privacy policy</a></p>
 
   <h3>Crash reports (Sentry)</h3>
   <p>If the game crashes, a report containing the technical state of the app
@@ -146,6 +148,18 @@
     stored choice and asks again.</li>
   </ul>
 
+  <h3>Approximate location</h3>
+  <p>Novafall never asks for location permission and has no access to your
+  device's location. But any internet connection reveals your <strong>IP
+  address</strong> to the services it talks to, and both Google and PostHog may
+  use it to estimate an approximate location — roughly country or region, not a
+  street or a neighbourhood. We declare this on the App Store as
+  <strong>Coarse Location</strong>, because Apple asks us to describe IP address
+  by what it is used for rather than leave it out.</p>
+  <p>We do not store it, look at it, or use it to target anything, and it is not
+  linked to your identity or used to track you. It is disclosed because it is
+  collected, not because it is useful to us.</p>
+
   <h3>Your game save (iCloud)</h3>
   <p>Your progress is saved on your device and backed up to your personal
   iCloud storage in a private app container. This backup is between your
@@ -156,7 +170,10 @@
   <h2>What we don't do</h2>
   <ul>
     <li>We don't sell or rent any data.</li>
-    <li>We don't collect names, emails, contacts, photos, location, or health data.</li>
+    <li>We don't collect names, emails, contacts, photos, precise location, or
+    health data. We never ask for location permission and the app cannot see
+    where you are; see <em>Approximate location</em> above for the one thing
+    that is derived from your IP address.</li>
     <li>We don't track you across other companies' apps or websites.</li>
     <li>We don't knowingly collect any information from children under 13.
     Novafall is not directed at children, and the analytics described above
